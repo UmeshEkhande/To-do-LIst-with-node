@@ -29,19 +29,6 @@ const itemSchema = new mongoose.Schema({
 
 const Item = new mongoose.model("Item", itemSchema);
 
-const item1 = new Item({
-  name: "Welcome to your TO DO LIST",
-});
-
-const item2 = new Item({
-  name: "Hit the + button to add a new item",
-});
-
-const item3 = new Item({
-  name: "<---- Hit this to delete an item",
-});
-
-const defaultItems = null;
 
 // Mongoose Schema for custom lists
 const listSchema = {
